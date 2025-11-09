@@ -129,6 +129,8 @@ Vagrant.configure("2") do |config|
     # Uncomment for GUI box:
     # sudo apt install -y gnome-terminal git
 
+    # test
+
     # ---- Verify setup ----
     echo ">>> Python version: $(python --version)"
     echo ">>> G++ version: $(g++ --version | head -n 1)"
