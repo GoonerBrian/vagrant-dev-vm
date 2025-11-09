@@ -120,6 +120,11 @@ Vagrant.configure("2") do |config|
     sudo apt install -y code
     rm packages.microsoft.gpg
 
+    # ---- VS Code extensions (GUI mode only) ----
+    code --install-extension ms-vscode.cpptools --force
+    code --install-extension ms-vscode.cpptools-extension-pack --force
+    code --install-extension eamodio.gitlens --force
+
     # ---- Optional: Desktop utilities (if using GUI mode) ----
     # Uncomment for GUI box:
     # sudo apt install -y gnome-terminal git
